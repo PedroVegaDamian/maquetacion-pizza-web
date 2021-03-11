@@ -1,7 +1,7 @@
-import styles from './Header.module.scss'
 import Navbar from '../Navbar'
 import Sidebar from '../Sidebar'
 import { useState } from 'react'
+import styles from './Header.module.scss'
 
 const Header = () => {
 	const [isOpenMenu, setIsOpenMenu] = useState(false)

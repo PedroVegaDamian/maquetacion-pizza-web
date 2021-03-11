@@ -12,31 +12,31 @@ const Footer = () => {
 						</a>
 						<div className={styles.socialIcons}>
 							<a
-								href='https://facebook.com'
 								target='_blank'
 								aria-label='Facebook'
-								rel='noopener noreferrer'>
+								rel='noopener noreferrer'
+								href='https://facebook.com'>
 								<FaFacebook />
 							</a>
 							<a
-								href='https://twitter.com'
 								target='_blank'
 								aria-label='Twitter'
-								rel='noopener noreferrer'>
+								rel='noopener noreferrer'
+								href='https://twitter.com'>
 								<FaTwitter />
 							</a>
 							<a
-								href='https://instagram.com'
 								target='_blank'
 								aria-label='Instagram'
-								rel='noopener noreferrer'>
+								rel='noopener noreferrer'
+								href='https://instagram.com'>
 								<FaInstagram />
 							</a>
 							<a
-								href='https://youtube.com'
 								target='_blank'
 								aria-label='Youtube'
-								rel='noopener noreferrer'>
+								rel='noopener noreferrer'
+								href='https://youtube.com'>
 								<FaYoutube />
 							</a>
 						</div>

@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import { FaPizzaSlice } from 'react-icons/fa'
 import styles from './Navbar.module.scss'
+import { FaPizzaSlice } from 'react-icons/fa'
 
 const Navbar = ({ openMenu }) => {
 	return (

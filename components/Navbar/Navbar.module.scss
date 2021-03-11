@@ -21,15 +21,15 @@
 	}
 
 	.navIcon {
-		display: block;
-		position: absolute;
 		top: 0;
 		right: 0;
-		cursor: pointer;
 		color: #fff;
+		display: block;
+		cursor: pointer;
+		position: absolute;
 		p {
-			transform: translate(-175%, 100%);
 			font-weight: bold;
+			transform: translate(-175%, 100%);
 		}
 	}
 

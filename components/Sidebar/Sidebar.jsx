@@ -12,13 +12,19 @@ const Sidebar = ({ isOpenMenu, closeMenu }) => {
 			</div>
 			<nav className={styles.menu}>
 				<Link href='#pizzas'>
-					<a className={styles.link}>Pizzas</a>
+					<a className={styles.link} onClick={() => closeMenu()}>
+						Pizzas
+					</a>
 				</Link>
 				<Link href='#postres'>
-					<a className={styles.link}>Postres</a>
+					<a className={styles.link} onClick={() => closeMenu()}>
+						Postres
+					</a>
 				</Link>
 				<Link href='/'>
-					<a className={styles.link}>Menu</a>
+					<a className={styles.link} onClick={() => closeMenu()}>
+						Menu
+					</a>
 				</Link>
 			</nav>
 
