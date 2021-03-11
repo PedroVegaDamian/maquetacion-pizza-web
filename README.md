@@ -4,7 +4,7 @@ Página web de una pizzería
 
 ## Live Preview 👁‍🗨
 
-[https://pizza-web.vercel.app/](https://pizza-web.vercel.app/)
+<a href="https://pizza-web.vercel.app/" target="_blank">https://pizza-web.vercel.app/</a>
 
 ![Pizza Web](./screenshot.png)
 
